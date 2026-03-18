@@ -9,8 +9,8 @@ import json
 import sqlite3
 
 # HARDCODED PATH (change if needed)
-sys.path.insert(0, r'C:\Users\Rishika Gitta\OneDrive\Desktop\SkillBridgeResume')
-sys.path.insert(0, r'C:\Users\Rishika Gitta\OneDrive\Desktop\SkillBridgeResume\src')
+sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 # Now import
 from predictor import CareerPredictor
