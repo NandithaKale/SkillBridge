@@ -1,1 +1,10 @@
- 
+streamlit
+pandas
+plotly
+scikit-learn
+spacy
+nltk
+PyPDF2
+bcrypt
+sendgrid
+numpy
